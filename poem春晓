@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+cout<<"  春  晓"<<endl;       //endl换行 
+cout<<"春眠不觉晓"<<endl;
+cout<<"处处闻啼鸟"<<endl;
+cout<<"夜来风雨声"<<endl;
+cout<<"花落知多少"<<endl;
+return 0;
+}
+
+
+
+
+
+//#include<iostream>    //引号内\n换行 
+//using namespace std;
+//int main(){
+//cout<<"  春  晓\n";
+//cout<<"春眠不觉晓\n";
+//cout<<"处处闻啼鸟\n";
+//cout<<"夜来风雨声\n";
+//cout<<"花落知多少\n";
+//return 0;
+//}
