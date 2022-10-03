@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	float r,C,S;
+	printf("请输入圆的半径r=");
+	scanf("%f",&r);
+	C=2*3.14*r;
+	S=3.14*r*r;
+	printf("圆的周长C=%f",C);
+	printf("圆的面积S=%f",S);
+	return 0;
+}
