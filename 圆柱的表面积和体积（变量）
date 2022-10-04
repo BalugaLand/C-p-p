@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	float r,h,S,V; 
+	printf("圆柱底面半径r=");
+	scanf("%f",&r);
+	printf("圆柱高h=");
+	scanf("%f",&h);
+	S=2*(3.14*r*r)+2*3.14*r*h;
+	V=3.14*r*r*h;
+	printf("圆柱的表面积S=%f\n",S);
+	printf("圆柱的体积V=%f\n",V);
+	return 0;
+}
