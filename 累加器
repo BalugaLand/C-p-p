@@ -1,54 +1,35 @@
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-	int a,b,c;
-	a = 30;
-	b = 2;
-	c = 1;
-	a = a/b - c;
-	cout<<"第一天剩下"<<a<<"根"<<endl;
-	a = a/b - c;
-	cout<<"第二天剩下"<<a<<"根"<<endl;
-	a = a/b - c;
-	cout<<"第三天剩下"<<a<<"根"<<endl;
-	return 0;
-}
-
-
-
-
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-	int n;
-	n = 1;
-	n *= 2;
-	n *= 2;
-	n *= 2;
-	n *= 2;
-	n *= 2;
-	cout<<"五次细胞分裂后的细胞数目="<<n<<endl;
-	return 0;
-}
-
-
-
-
-
-
-
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-	int sum,n;
-	sum = 5;
-	n = 10;
-	sum = sum + n;
-	cout<<"sum="<<sum<<endl;
-	sum = sum + n;
-	cout<<"sum="<<sum<<endl;
-	sum += n;
-	cout<<"sum="<<sum<<endl;
-	printf("sum=%d",sum);
-	return 0;
-}
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//	int n;
+//	n = 1;
+//	n *= 2;
+//	n *= 2;
+//	n *= 2;
+//	n *= 2;
+//	n *= 2;
+//	cout<<"五次细胞分裂后的细胞数目="<<n<<endl;
+//	return 0;
+//}
+//
+//
+//
+//
+//
+//
+//
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//	int sum,n;
+//	sum = 5;
+//	n = 10;
+//	sum = sum + n;
+//	cout<<"sum="<<sum<<endl;
+//	sum = sum + n;
+//	cout<<"sum="<<sum<<endl;
+//	sum += n;
+//	cout<<"sum="<<sum<<endl;
+//	printf("sum=%d",sum);
+//	return 0;
+//}
