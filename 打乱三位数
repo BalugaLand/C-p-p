@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int n,ge,shi,bai;
+	cout<<"请输入一个三位数:";
+	cin>>n;
+	bai = n/100;
+	shi = (n/10)%10;
+	ge = n%10;
+	cout<<bai*100+shi*10+ge<<endl;
+	cout<<bai*100+ge*10+shi<<endl;
+	cout<<ge*100+shi*10+bai<<endl;
+	cout<<shi*100+bai*10+ge<<endl;
+	cout<<ge*100+bai*10+shi<<endl;
+	cout<<shi*100+ge*10+bai<<endl;
+
+	return 0;
+}
