@@ -1,0 +1,16 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+	int a,b;
+	a = 89;
+	b = 10;
+	cout<<setw(10)<<a/b<<endl;
+	cout<<setw(15)<<"-----------"<<endl;
+	cout<<setw(3)<<b<<"/"<<setw(6)<<a<<endl;
+	cout<<setw(10)<<a/b*b<<endl;
+	cout<<setw(15)<<"-----------"<<endl;
+	cout<<setw(10)<<a%b<<endl;
+
+	return 0;
+}
