@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int n,qian,bai,shi,ge;
+	n = 2345;
+	qian = n/1000;
+	bai = (n/100)%10;
+	shi = (n/10)%10;
+	ge = n%10;
+	cout<<qian*100+bai*1000+shi+ge*10<<" "<<qian*100+bai+shi*1000+ge*10<<" "<<qian*100+bai*10+shi+ge*1000<<endl;
+	cout<<qian*10+bai*1000+shi+ge*100<<" "<<qian*10+bai+shi*1000+ge*100<<" "<<qian*10+bai+shi*100+ge*1000<<endl;
+	cout<<qian+bai*1000+shi*100+ge*10<<" "<<qian+bai*10+shi*1000+ge*100<<" "<<qian+bai*10+shi*100+ge*1000<<endl;
+	return 0;
+}
